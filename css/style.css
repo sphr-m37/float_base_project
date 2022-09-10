@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-width: 1400px;
+}
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.wf-fl {
+    width: 100%;
+    float: left;
+}
+
+/* headder */
+.header {
+    width: 100%;
+    /* height: 300px; */
+    background: url(../images/city1.jpg) no-repeat center top /cover;
+}
+
+.header-content {
+    /* width: 100%; */
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+.header-content i {
+    color: crimson;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.header-content h1 {
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.header-content p {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header-content a {
+    color: white;
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 15px;
+}
+
+/* main */
+/* best cities */
+
+
+.best-city h2 {
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.best-city-inner section {
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+}
+
+.best-city-inner i {
+    font-style: normal;
+    color: crimson;
+    font-size: 25px;
+}
+
+.best-city-inner h3 {
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+
+.best-city-inner p {
+    text-align: left;
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+.best-city-inner section:last-child p {
+    padding-right: 0;
+}
+
+/* options */
+.options {
+    background-color: crimson;
+    margin-top: 25px;
+    float: left;
+    padding: 35px 0;
+}
+
+.options section {
+    width: 33.3333%;
+    float: left;
+    padding: 15px 0;
+}
+
+.options h3 {
+    color: white;
+    margin: 0px 15px 15x;
+}
+
+.options p {
+    color: white;
+}
+
+.options section a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 25px;
+
+}
+
+/* welcome */
+.welcome {
+    background-color: gray;
+    padding: 30px 0px;
+    margin-bottom: 25px;
+}
+
+.welcome-left {
+    background-color: aliceblue;
+    width: 60%;
+    padding: 15px 12px;
+    float: left;
+}
+
+.welcome-left h3 {
+    margin: 5px 0;
+}
+
+.welocme-right {
+    width: 36%;
+    background-color: crimson;
+    float: left;
+    margin-left: 4%;
+    /* margin-top: 35px; */
+}
+
+.welocme-right>div {
+    width: 25%;
+    padding: 30px 50px;
+    float: left;
+
+}
+
+.welocme-right>div>span {
+    color: white;
+    display: block;
+    padding: 5px 0;
+
+}
+
+/* locations */
+.location h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.location-inner section {
+    width: 32%;
+    float: left;
+    margin: 20px 0;
+}
+
+.location-inner .margin-x {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.location-inner h3 {
+    margin: 10px 0;
+}
+
+.image {
+    width: 100%;
+    height: 250px;
+    border: 1px solid crimson;
+
+
+}
+
+.location-inner p {
+    line-height: 20px;
+    margin: 5px 0;
+}
+
+image h3 {
+    margin: 10px 0;
+}
+
+.image1 {
+    background: url(../images/city5.jpg) no-repeat center top / cover;
+}
+
+.image2 {
+    background: url(../images/city1.jpg) no-repeat center top / cover;
+}
+
+.image3 {
+    background: url(../images/city2.jpg) no-repeat center top / cover;
+
+}
+
+.image4 {
+    background: url(../images/city3.jpg) no-repeat center top / cover;
+}
+
+.image5 {
+    background: url(../images/city4.jpg) no-repeat center top / cover;
+}
+
+.image6 {
+    background: url(../images/city5.jpg) no-repeat center top / cover;
+
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
